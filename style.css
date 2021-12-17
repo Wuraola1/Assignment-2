@@ -1,0 +1,189 @@
+.content {
+  background-color: red;
+}
+/* Ist grid */
+.group1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 250px;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+/* upper column 1 */
+.beauty {
+  background-color: rgb(182, 224, 210);
+  text-align: right;
+}
+.beau {
+  font-weight: bolder;
+}
+.skin {
+  text-align: left;
+}
+.shopnow {
+  color: rgb(167, 49, 49);
+}
+.price {
+  text-align: left;
+}
+.amount {
+  color: red;
+}
+/* upper colum 2 */
+.phones {
+  background-color: pink;
+  text-align: right;
+}
+.mobile {
+  font-weight: bolder;
+}
+.smart {
+  text-align: left;
+}
+.price {
+  text-align: left;
+}
+.amount {
+  color: red;
+}
+
+/* upper column 3 */
+.babies {
+  background-color: whitesmoke;
+  text-align: right;
+}
+.gift {
+  font-weight: bolder;
+}
+.find {
+  font-size: 15px;
+}
+.baby {
+  text-align: left;
+}
+
+.shopnow {
+  color: rgb(167, 49, 49);
+}
+.price {
+  text-align: left;
+}
+.amount {
+  color: red;
+}
+
+/* upper column 5 */
+.tv {
+  background-color: rgb(219, 205, 205);
+  text-align: right;
+}
+.great {
+  font-weight: bolder;
+}
+.top {
+  text-align: left;
+}
+
+.shopnow {
+  color: rgb(167, 49, 49);
+}
+.price2 {
+  text-align: left;
+}
+.amount2 {
+  color: red;
+}
+
+/* 2nd Grid */
+.logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  background-color: red;
+  gap: 2px;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+/* .grid-item {
+  border: 1px solid whitesmoke;
+} */
+
+.hp {
+  background-color: white;
+  padding: 40px;
+  font-style: italic;
+  color: rgb(50, 50, 235);
+}
+.itec {
+  background-color: white;
+  padding: 40px;
+  font-weight: bolder;
+}
+.subtec {
+  font-size: 10px;
+  font-style: italic;
+  align-items: stretch;
+}
+.intel {
+  background-color: white;
+  padding: 40px;
+  font-weight: bolder;
+}
+.pg {
+  background-color: white;
+  padding: 40px;
+  font-style: italic;
+  color: rgb(50, 50, 235);
+  font-weight: bolder;
+}
+.tecno {
+  background-color: white;
+  padding: 40px;
+  color: rgba(111, 111, 235, 0.904);
+}
+.uni {
+  background-color: white;
+  padding: 40px;
+  font-style: italic;
+  color: rgba(0, 0, 255, 0.568);
+}
+.therm {
+  background-color: white;
+  padding: 30px;
+}
+.subtherm {
+  font-style: italic;
+  font-size: 10px;
+}
+.cola {
+  background-color: white;
+  padding: 40px;
+  font-style: italic;
+  color: red;
+}
+.samsung {
+  background-color: white;
+  padding: 40px;
+  color: blue;
+}
+.lenovo {
+  background-color: white;
+  padding: 40px;
+}
+.nokia {
+  background-color: white;
+  padding: 40px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 255, 0.418);
+}
+.nexus {
+  background-color: white;
+  padding: 40px;
+  text-transform: uppercase;
+}
+.subnexus {
+  font-size: 10px;
+}
